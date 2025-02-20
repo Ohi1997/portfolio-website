@@ -19,3 +19,9 @@
     line-height: 0.9;
   }
 }
+
+@media (max-width: 400px){
+  .custom-text{
+    display: none;
+  }
+}
