@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+@media (max-width: 425px) {
+  .custom-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.9;
+  }
+}
