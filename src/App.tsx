@@ -74,7 +74,7 @@ function App() {
             <div className="flex flex-col lg:flex-row items-center justify-between">
               <div className="lg:w-1/2 lg:pr-16">
                 <img
-                  src="/src/image/portrait/ohi_portrait.png"
+                  src="/images/portrait/ohi_portrait.png"
                   alt="Portrait Image"
                   className="w-auto max-w-[300px] sm:max-w-[350px] md:max-w-[400px] rounded-xl mx-auto mb-8"
                 />
