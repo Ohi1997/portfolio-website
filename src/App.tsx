@@ -83,7 +83,7 @@ function App() {
                   Junior Software Engineer
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                  Specializing in HTML, CSS, JavaScript, and WordPress
+                  Specializing in HTML, CSS, JavaScript, PHP and WordPress
                   development
                 </p>
                 <div className="flex space-x-4">
