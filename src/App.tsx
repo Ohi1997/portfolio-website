@@ -83,8 +83,10 @@ function App() {
                   Junior Software Engineer
                 </h1>
                 <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                  Specializing in HTML, CSS, JavaScript, PHP and WordPress
-                  development
+                  Passionate about building responsive, user-friendly websites,
+                  wordpress plugins and web applications using HTML, CSS,
+                  JavaScript, PHP, and WordPress. Dedicated to clean code,
+                  performance, and great user experiences.
                 </p>
                 <div className="flex space-x-4">
                   <a
