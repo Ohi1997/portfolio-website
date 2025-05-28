@@ -1,8 +1,17 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 
+interface Project {
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  liveUrl?: string;
+  githubUrl?: string;
+}
+
 export function Projects() {
-  const projects = [
+  const projects: Project[] = [
     {
       title: "All in One Pricing Table",
       description:
