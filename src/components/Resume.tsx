@@ -22,7 +22,7 @@ export function Resume() {
               Complete overview of my skills, experience, and education
             </p>
             <a
-              href="docs/arefin_cv.pdf"
+              href="docs/ashrick_arefin.pdf"
               download
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
