@@ -45,6 +45,22 @@ export function Projects() {
       liveUrl:
         "https://wordpress.org/plugins/result-management-system-for-institutions/",
     },
+    {
+      title: "Ashfin Site Lock",
+      description:
+        "A lightweight and effective WordPress plugin that enables maintenance mode with a customizable landing page. While regular visitors see a stylish 'Under Maintenance' message, administrators can continue accessing the full site. Ideal for developers and site owners preparing updates or working on live sites. Free to download from GitHub.",
+      image:
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/maintenance-preview.jpg",
+      technologies: [
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "Maintenance Mode",
+        "Access Control",
+      ],
+      githubUrl: "https://github.com/Ohi1997/ashfin-site-lock",
+    },
   ];
   const upcomingProjects = [
     {
@@ -63,18 +79,17 @@ export function Projects() {
       ],
     },
     {
-      title: "Ashfin Site Lock",
+      title: "Ashfin SciTable",
       description:
-        "A lightweight and effective WordPress plugin that enables maintenance mode with a customizable landing page. While regular visitors see a stylish 'Under Maintenance' message, administrators can continue accessing the full site. Ideal for developers and site owners preparing updates or working on live sites.",
+        "An interactive periodic table built with HTML, CSS, and JavaScript.",
       image:
-        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/maintenance-preview.jpg",
+        "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=A%20clean%20modern%20interactive%20periodic%20table%20of%20elements%20web%20application%20interface%2C%20colorful%20element%20tiles%20arranged%20in%20standard%20periodic%20table%20layout%2C%20one%20element%20highlighted%20on%20hover%20with%20details%20panel%2C%20sleek%20UI%20design%2C%20web%20app%20screenshot%20style&image_size=landscape_16_9",
       technologies: [
-        "WordPress",
-        "PHP",
-        "JavaScript",
+        "HTML",
         "CSS",
-        "Maintenance Mode",
-        "Access Control",
+        "JavaScript",
+        "Interactive",
+        "Science Education",
       ],
     },
   ];
