@@ -16,7 +16,8 @@ export function Projects() {
       title: "All in One Pricing Table",
       description:
         "Ten amazing pricing tables that are easy to use and look great on any device. Fully responsive and customizable.",
-      image: "https://shorturl.at/1Ey3g",
+      image:
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/ipt-interactive-responsive.jpg",
       technologies: ["HTML", "JavaScript", "CSS", "JSON"],
       liveUrl: "https://codecanyon.net/item/all-in-one-pricing-tables/51706584",
     },
@@ -24,7 +25,8 @@ export function Projects() {
       title: "Performance Optimization",
       description:
         "Website optimization project that improved loading times by 70% through various optimization techniques.",
-      image: "https://firevps.net/wp-content/uploads/2024/04/font-page.png",
+      image:
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/performance-optimization.png",
       technologies: [
         "HTML",
         "CSS",
@@ -67,7 +69,7 @@ export function Projects() {
       description:
         "A lightweight and effective WordPress plugin that enables maintenance mode with a customizable landing page. While regular visitors see a stylish 'Under Maintenance' message, administrators can continue accessing the full site. Ideal for developers and site owners preparing updates or working on live sites.",
       image:
-        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/maintenance-preview.jpg",
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/maintenace-page.png",
       technologies: [
         "WordPress",
         "PHP",
