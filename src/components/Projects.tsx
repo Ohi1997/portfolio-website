@@ -17,7 +17,7 @@ export function Projects() {
       description:
         "Ten amazing pricing tables that are easy to use and look great on any device. Fully responsive and customizable.",
       image:
-        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/ipt-interactive-responsive.jpg",
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/pricing-table-image.jpg",
       technologies: ["HTML", "JavaScript", "CSS", "JSON"],
       liveUrl: "https://codecanyon.net/item/all-in-one-pricing-tables/51706584",
     },
@@ -47,6 +47,22 @@ export function Projects() {
       liveUrl:
         "https://wordpress.org/plugins/result-management-system-for-institutions/",
     },
+    {
+      title: "Ashfin Site Lock",
+      description:
+        "A lightweight and effective WordPress plugin that enables maintenance mode with a customizable landing page. While regular visitors see a stylish 'Under Maintenance' message, administrators can continue accessing the full site. Ideal for developers and site owners preparing updates or working on live sites.",
+      image:
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/maintenance-page.png",
+      technologies: [
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "Maintenance Mode",
+        "Access Control",
+      ],
+      githubUrl: "https://github.com/Ohi1997/ashfin-site-lock",
+    },
   ];
   const upcomingProjects = [
     {
@@ -65,18 +81,17 @@ export function Projects() {
       ],
     },
     {
-      title: "Ashfin Site Lock",
+      title: "Ashfin SciTable",
       description:
-        "A lightweight and effective WordPress plugin that enables maintenance mode with a customizable landing page. While regular visitors see a stylish 'Under Maintenance' message, administrators can continue accessing the full site. Ideal for developers and site owners preparing updates or working on live sites.",
+        "Experience the periodic table like never before with interactive elements, real-time data, and intuitive design. An Interactive Periodic Table built with HTML, CSS, and JavaScript. Fully responsive and user-friendly design.",
       image:
-        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/maintenace-page.png",
+        "https://raw.githubusercontent.com/Ohi1997/portfolio-website/refs/heads/main/public/images/ipt-interactive-responsive.jpg",
       technologies: [
-        "WordPress",
-        "PHP",
-        "JavaScript",
+        "HTML",
         "CSS",
-        "Maintenance Mode",
-        "Access Control",
+        "JavaScript",
+        "Interactive",
+        "Science Education",
       ],
     },
   ];
