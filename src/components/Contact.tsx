@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Mail, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -154,19 +154,6 @@ export function Contact() {
                 </div>
               </div>
 
-              {/* Location */}
-              <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all">
-                <MapPin className="w-8 h-8 text-blue-600 dark:text-blue-400 animate-bounce" />
-                <div>
-                  <h4 className="text-lg font-medium text-gray-900 dark:text-white">
-                    Location
-                  </h4>
-                  <p className="mt-1 text-gray-600 dark:text-gray-300">
-                    Available for Remote Work
-                  </p>
-                </div>
-              </div>
-
               {/* GitHub */}
               <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all">
                 <img
@@ -183,6 +170,28 @@ export function Contact() {
                     className="mt-1 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
                     Ohi1997
+                  </a>
+                </div>
+              </div>
+
+              {/* LinkedIn */}
+              <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="LinkedIn"
+                  className="w-8 h-8 animate-pulse rounded-full"
+                />
+                <div>
+                  <h4 className="text-lg font-medium text-gray-900 dark:text-white">
+                    LinkedIn
+                  </h4>
+                  <a
+                    href="https://www.linkedin.com/in/ashrick-arefin-46909b350/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  >
+                    Ashrick Arefin
                   </a>
                 </div>
               </div>
